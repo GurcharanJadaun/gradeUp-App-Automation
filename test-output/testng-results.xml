@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="195590" started-at="2020-09-22T05:27:01Z" finished-at="2020-09-22T05:30:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="195590" started-at="2020-09-22T05:27:01Z" finished-at="2020-09-22T05:30:17Z">
+      <class name="DriverScripts.SecondTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:DriverScripts.SecondTest@6e06451e]" name="beforeClass" is-config="true" duration-ms="31197" started-at="2020-09-22T10:57:01Z" finished-at="2020-09-22T10:57:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="launchApp()[pri:1, instance:DriverScripts.SecondTest@6e06451e]" name="launchApp" duration-ms="1380" started-at="2020-09-22T10:57:33Z" finished-at="2020-09-22T10:57:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="selectExamAndLanguage()[pri:2, instance:DriverScripts.SecondTest@6e06451e]" name="selectExamAndLanguage" duration-ms="11454" started-at="2020-09-22T10:57:34Z" depends-on-methods="DriverScripts.SecondTest.launchApp" finished-at="2020-09-22T10:57:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectExamAndLanguage -->
+        <test-method status="PASS" signature="login()[pri:3, instance:DriverScripts.SecondTest@6e06451e]" name="login" duration-ms="15207" started-at="2020-09-22T10:57:45Z" depends-on-methods="DriverScripts.SecondTest.launchApp" finished-at="2020-09-22T10:58:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="dashboard()[pri:4, instance:DriverScripts.SecondTest@6e06451e]" name="dashboard" duration-ms="24105" started-at="2020-09-22T10:58:01Z" depends-on-methods="DriverScripts.SecondTest.launchApp" finished-at="2020-09-22T10:58:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboard -->
+        <test-method status="PASS" signature="takeTest()[pri:5, instance:DriverScripts.SecondTest@6e06451e]" name="takeTest" duration-ms="110472" started-at="2020-09-22T10:58:25Z" depends-on-methods="DriverScripts.SecondTest.launchApp" finished-at="2020-09-22T11:00:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:DriverScripts.SecondTest@6e06451e]" name="afterClass" is-config="true" duration-ms="1701" started-at="2020-09-22T11:00:15Z" finished-at="2020-09-22T11:00:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- DriverScripts.SecondTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

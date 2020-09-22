@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Local]">
+  <test name="LocalTest">
+    <classes>
+      <class name="DriverScripts.SecondTest"/>
+    </classes>
+  </test> <!-- LocalTest -->
+  <test name="LocalTest(failed)">
+    <classes>
+      <class name="DriverScripts.SecondTest">
+        <methods>
+          <include name="test2"/>
+          <include name="test3"/>
+          <include name="beforeClass"/>
+          <include name="test1"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- DriverScripts.SecondTest -->
+    </classes>
+  </test> <!-- LocalTest(failed) -->
+</suite> <!-- Failed suite [Local] -->
